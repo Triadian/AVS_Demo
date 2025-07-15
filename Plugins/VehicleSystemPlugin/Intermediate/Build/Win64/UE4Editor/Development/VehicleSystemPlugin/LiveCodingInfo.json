@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VehicleSystemPlugin.cpp.obj": [
+			"VehicleConstraint.cpp.obj",
+			"VehicleSystemBase.cpp.obj",
+			"VehicleSystemFunctions.cpp.obj",
+			"VehicleSystemPlugin.cpp.obj"
+		],
+		"Module.VehicleSystemPlugin.gen.cpp.obj": [
+			"VehicleConstraint.gen.cpp.obj",
+			"VehicleSystemBase.gen.cpp.obj",
+			"VehicleSystemFunctions.gen.cpp.obj",
+			"VehicleSystemPlugin.init.gen.cpp.obj"
+		]
+	}
+}

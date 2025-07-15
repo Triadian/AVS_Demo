@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Games\\AVS_DemoSrc_426min\\Source\\VehicleSystem\\VehicleSystem.Build.cs",
+		"C:\\Games\\AVS_DemoSrc_426min\\Plugins\\MazeGenerator\\Source\\MazeGenerator\\MazeGenerator.Build.cs",
+		"C:\\Games\\AVS_DemoSrc_426min\\Plugins\\VehicleSystemPlugin\\Source\\VehicleSystemPlugin\\VehicleSystemPlugin.Build.cs",
+		"C:\\Games\\AVS_DemoSrc_426min\\Source\\VehicleSystem.Target.cs",
+		"C:\\Games\\AVS_DemoSrc_426min\\Source\\VehicleSystemEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

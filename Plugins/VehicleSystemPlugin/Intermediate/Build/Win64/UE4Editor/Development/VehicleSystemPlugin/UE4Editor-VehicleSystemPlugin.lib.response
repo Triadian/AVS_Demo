@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VehicleSystemPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Games\AVS_DemoSrc_426min\Intermediate\Build\Win64\VehicleSystemEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Games\AVS_DemoSrc_426min\Plugins\VehicleSystemPlugin\Intermediate\Build\Win64\UE4Editor\Development\VehicleSystemPlugin\Module.VehicleSystemPlugin.cpp.obj"
+"C:\Games\AVS_DemoSrc_426min\Plugins\VehicleSystemPlugin\Intermediate\Build\Win64\UE4Editor\Development\VehicleSystemPlugin\Module.VehicleSystemPlugin.gen.cpp.obj"
+"C:\Games\AVS_DemoSrc_426min\Plugins\VehicleSystemPlugin\Intermediate\Build\Win64\UE4Editor\Development\VehicleSystemPlugin\Default.rc2.res"
+/OUT:"C:\Games\AVS_DemoSrc_426min\Plugins\VehicleSystemPlugin\Intermediate\Build\Win64\UE4Editor\Development\VehicleSystemPlugin\UE4Editor-VehicleSystemPlugin.lib"

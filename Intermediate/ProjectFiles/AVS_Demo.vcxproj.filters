@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AVS_Demo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1318087B-0248-4AEA-BDEA-D2DE784FCC1F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VehicleSystem.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VehicleSystemEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\AVS_Demo.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{C5E74A61-FD81-44A5-B86D-258F52CC1255}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{17109A63-753B-42AD-9DC0-91765A978913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MazeGenerator">
+      <UniqueIdentifier>{43EE3751-DE2D-48DF-980F-9C3C03E5165E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MazeGenerator\Source">
+      <UniqueIdentifier>{8B536F17-83B8-427D-8421-21B46F5FCBEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MazeGenerator\Source\MazeGenerator">
+      <UniqueIdentifier>{F793C2E7-6A4D-4A7F-B3A4-035D0D9D919D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\MazeGenerator.Build.cs">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator</Filter>
+    </None>
+    <Filter Include="Plugins\MazeGenerator\Source\MazeGenerator\Private">
+      <UniqueIdentifier>{69C18B81-FB2D-4FD7-B65B-1F006A19EB75}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Private\Maze.cpp">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Private\MazeGenerator.cpp">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms">
+      <UniqueIdentifier>{335856A6-0507-4E5F-AA22-E364F51571DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms\Algorithm.cpp">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms\Algorithm.h">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms\Utils.h">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\MazeGenerator\Source\MazeGenerator\Public">
+      <UniqueIdentifier>{95BE547F-BF27-4510-A4B3-63DAAC97B1EC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Public\Maze.h">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MazeGenerator\Source\MazeGenerator\Public\MazeGenerator.h">
+      <Filter>Plugins\MazeGenerator\Source\MazeGenerator\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\MazeGenerator\MazeGenerator.uplugin">
+      <Filter>Plugins\MazeGenerator</Filter>
+    </None>
+    <Filter Include="Plugins\MazeGenerator\Resources">
+      <UniqueIdentifier>{ACF344E5-366E-4685-9769-74D725780019}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MazeGenerator\Resources\Icon128.png">
+      <Filter>Plugins\MazeGenerator\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VehicleSystemPlugin">
+      <UniqueIdentifier>{322DF9DC-E6C4-4FEF-821F-D486DBCDCD61}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VehicleSystemPlugin\VehicleSystemPlugin.uplugin">
+      <Filter>Plugins\VehicleSystemPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VehicleSystemPlugin\Resources">
+      <UniqueIdentifier>{60B609CD-9AE6-40EC-9296-8C2DF69CD4E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VehicleSystemPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VehicleSystemPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VehicleSystemPlugin\Source">
+      <UniqueIdentifier>{E2388811-2F0F-43BE-9D28-82E44FD16C44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin">
+      <UniqueIdentifier>{1D7960F5-ADD2-4771-B39B-F5B6C0A28726}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\VehicleSystemPlugin.Build.cs">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\VehicleSystemPlugin.cpp">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\VehicleSystemPlugin.h">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private">
+      <UniqueIdentifier>{E6B31A5B-2885-4804-9A1C-626699EF900C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private\VehicleConstraint.cpp">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private\VehicleSystemBase.cpp">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private\VehicleSystemFunctions.cpp">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public">
+      <UniqueIdentifier>{5AA2830E-3C70-4684-9D5C-70378FEF1579}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public\VehicleConstraint.h">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public\VehicleSystemBase.h">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public\VehicleSystemFunctions.h">
+      <Filter>Plugins\VehicleSystemPlugin\Source\VehicleSystemPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\VehicleSystem">
+      <UniqueIdentifier>{68C1A0CD-26FD-4D18-AA91-52F837CBA976}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VehicleSystem\VehicleSystem.Build.cs">
+      <Filter>Source\VehicleSystem</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VehicleSystem\VehicleSystem.cpp">
+      <Filter>Source\VehicleSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleSystem\VehicleSystem.h">
+      <Filter>Source\VehicleSystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\VehicleSystem\Private">
+      <UniqueIdentifier>{69133163-551C-43AD-AD74-694AB748D280}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VehicleSystem\Private\BlankClass.cpp">
+      <Filter>Source\VehicleSystem\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleSystem\Private\BlankClass.h">
+      <Filter>Source\VehicleSystem\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleSystem\Private\DemoFunctions.cpp">
+      <Filter>Source\VehicleSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\VehicleSystem\Public">
+      <UniqueIdentifier>{773393E9-3452-4B38-8110-DFC14B60FA17}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\VehicleSystem\Public\DemoFunctions.h">
+      <Filter>Source\VehicleSystem\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

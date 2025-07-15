@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VehicleSystem",
+			"Path": "C:\\Games\\AVS_DemoSrc_426min\\Source\\VehicleSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VehicleSystemEditor",
+			"Path": "C:\\Games\\AVS_DemoSrc_426min\\Source\\VehicleSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
