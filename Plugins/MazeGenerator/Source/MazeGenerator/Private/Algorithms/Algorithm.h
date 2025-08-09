@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Math/RandomStream.h"
+#include "maze.h"
+
 
 struct FIntVector2
 {
@@ -17,17 +19,24 @@ struct FIntVector2
 	}
 };
 
+
 class Algorithm
 {
 public:
 	virtual ~Algorithm() = default;
 
 	/** Generates a binary grid (0 = path, 1 = wall) seeded by level number */
-	TArray<TArray<uint8>> GetGrid(const FIntVector2& Size, int32 Seed, int32 StartX, int32 StartY);
+	TArray<TArray<uint8>> GetGrid(const FIntVector2& Size, int32 Seed, FMazeCoordinates Start, FMazeCoordinates End, bool GenPath);
 	static int32 CountAdjacentPaths(const TArray<TArray<uint8>>& Grid, int32 X, int32 Y);
 	static TArray<TArray<uint8>> FloodFill(const TArray<TArray<uint8>>& Grid, const FIntPoint& Start, uint8 FillValue);
 	static bool HasUnreachable(const TArray<TArray<uint8>>& Grid);
-
+	void PrintGrid(const TArray<TArray<uint8>>& Grid);
+	bool IsEndReachable(const TArray<TArray<uint8>>& Grid, const FIntPoint& Start, const FIntPoint& End);
+	// C++
+	TArray<FIntPoint> FindPath(const TArray<TArray<uint8>>& Grid, const FIntPoint& Start, const FIntPoint& End, bool GenPath);
+	int32 CountTurns(const TArray<FIntPoint>& Path);
+	TArray<TArray<TCHAR>> ConvertGridToRoadLetters(const TArray<TArray<uint8>>& Grid);
+	
 
 protected:
 	/** Creates a grid filled with a specified value (usually 1 = wall) */
@@ -39,5 +48,5 @@ protected:
 private:
 	template <typename T>
 	static void ShuffleTArray(TArray<T>& Array, FRandomStream& RandomStream);
-
+	
 };

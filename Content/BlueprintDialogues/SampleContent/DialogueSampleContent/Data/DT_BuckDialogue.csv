@@ -1,0 +1,27 @@
+Buck_Intro,Buck,"Well, howdy! Name's Buck Johnson. This is Johnson's Garage. Saw your wheels crawl in—looks like she's had a rough ride. You here for repairs, or maybe something a bit more exciting? Folks been asking about that race.",,Player_AskFix;Player_AskRace;Player_AskWork,Hub
+Player_AskFix,Player,"I was hoping you could fix my car, Buck.",,Buck_FixReply,
+Player_AskRace,Player,I saw the poster—what's this amazing race?,,Buck_ExplainRace,
+Player_AskWork,Player,"I'm looking for work, anything going?",,Buck_OfferWork,
+Buck_FixReply,Buck,"I wish I could, partner, but she's too far gone for fixing. I'll make you an offer though—I'll buy her off you, but only if you race for me in the Maze Races. What do you say?",,Player_RaceDeal;Player_DeclineFix;Player_AskMazeRace,Hub
+Player_RaceDeal,Player,"Alright, I'll race for you.",,Buck_CarChoice,
+Player_DeclineFix,Player,"No thanks, I'll keep looking for a repair.",,Buck_Decline,
+Player_AskMazeRace,Player,What's the Maze Race anyway?,,Buck_ExplainRace,
+Buck_ExplainRace,Buck,That's the Maze Race—wildest run in the county. Winner gets a shot at the Golden Engine. I'm recruiting folks with grit. You interested in giving it a try?,,Player_AskGoldenEngine;Player_SignUp;Player_NotRacer,Hub
+Player_AskGoldenEngine,Player,What's the Golden Engine?,,Buck_ExplainGoldenEngine,
+Player_SignUp,Player,"Sign me up, Buck.",,Buck_CarChoice,
+Player_NotRacer,Player,I'm not much of a racer.,,Buck_Decline,
+Buck_OfferWork,Buck,"Funny you should ask—I need a driver for the Maze Race. If you've got the spirit, I can put you behind the wheel. There's a catch though: you'd be racing for me.",,Player_WorkAccept;Player_WorkDecline;Player_WorkAskRace,Hub
+Player_WorkAccept,Player,I'm in. What do I drive?,,Buck_CarChoice,
+Player_WorkDecline,Player,"Not my thing, Buck.",,Buck_Decline,
+Player_WorkAskRace,Player,Tell me more about this race.,,Buck_ExplainRace,
+Buck_ExplainGoldenEngine,Buck,"The Maze Race is a test of skill, speed, and guts—twisting tracks, fierce competition. The Golden Engine? That's a legend; folks say it turns any car into a champion. Only way to get a shot at it is to win the race.",,Player_GoldenRace;Player_GoldenDecline,Hub
+Player_GoldenRace,Player,I want to race.,,Buck_CarChoice,
+Player_GoldenDecline,Player,Maybe another time.,,Buck_Decline,
+Buck_CarChoice,Buck,"Glad to have you aboard! I've got three cars for you to choose from—a speedster, an acceleration brute, and a cornering specialist. Take any for a test drive before you decide.",,Player_ChooseSpeed;Player_ChooseAccel;Player_ChooseCorner,Hub
+Player_ChooseSpeed,Player,I want the speed car.,,Buck_SpeedReply,
+Player_ChooseAccel,Player,I want the acceleration car.,,Buck_AccelReply,
+Player_ChooseCorner,Player,I want the cornering car.,,Buck_CornerReply,
+Buck_SpeedReply,Buck,Good choice! The speed car's built for the straightaways. Take her out for a test drive and see how she handles.,,,
+Buck_AccelReply,Buck,"Acceleration beast, huh? She'll leave the others in the dust off the line. Take her for a spin.",,,
+Buck_CornerReply,Buck,Corner-hugger's the one for you. She'll stick to the track like glue. Give her a try.,,,
+Buck_Decline,Buck,"Fair enough, partner. My offer stands if you change your mind. There's always a place in the garage for folks willing to race.",,,

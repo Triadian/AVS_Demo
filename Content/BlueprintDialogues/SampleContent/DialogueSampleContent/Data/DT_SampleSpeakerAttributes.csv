@@ -1,0 +1,3 @@
+Name,SpeakerName,SpeakerPortrait,bIsPlayer,bSilentResponses
+Buck,Buck,Texture2D'/Game/BlueprintDialogues/Characters/Buck.Buck',FALSE,FALSE
+Player,Player,MaterialInstanceConstant'/Game/BlueprintDialogues/Materials/MI_SampleAvatar.MI_SampleAvatar',TRUE,TRUE

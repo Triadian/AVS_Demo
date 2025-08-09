@@ -600,8 +600,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"C:\Games\AVS_DemoSrc_426min\Intermediate\Build\Win64\VehicleSystemEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Games\AVS_DemoSrc_426min\Intermediate\Build\Win64\VehicleSystemEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Games\AVS_DemoSrc_426min\Intermediate\Build\Win64\VehicleSystemEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Source\MazeGenerator\Private\Algorithms\Algorithm.cpp"
-/FI"C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Definitions.h"
+/FI"C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Definitions.MazeGenerator.h"
 /Fo"C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Algorithm.cpp.obj"
 /TP
 /GR-

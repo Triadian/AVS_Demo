@@ -34,6 +34,8 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Games\AVS_DemoSrc_426min\Intermediate\Build\Win64\VehicleSystemEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Algorithm.cpp.obj"
+"C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Maze.cpp.obj"
 "C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Module.MazeGenerator.cpp.obj"
 "C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Module.MazeGenerator.gen.cpp.obj"
 "C:\Games\AVS_DemoSrc_426min\Plugins\MazeGenerator\Intermediate\Build\Win64\UE4Editor\Development\MazeGenerator\Default.rc2.res"

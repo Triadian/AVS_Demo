@@ -37,6 +37,25 @@ struct FMazeSize
 	operator FIntVector2() const;
 };
 
+// C++
+USTRUCT()
+struct FNeighborLetter
+{
+	GENERATED_BODY()
+
+	UPROPERTY()
+	FString Direction; // "N", "E", "S", "W"
+
+	UPROPERTY()
+	FString Letter;
+
+	FNeighborLetter() : Direction(TEXT("N")), Letter(TEXT(" ")) {}
+	FNeighborLetter(const FString& InDirection, const FString& InLetter) : Direction(InDirection), Letter(InLetter) {}
+	FNeighborLetter(TCHAR InDirection, TCHAR InLetter)
+		: Direction(FString::Chr(InDirection)), Letter(FString::Chr(InLetter)) {}
+};
+
+
 USTRUCT(BlueprintType)
 struct FMazeCoordinates
 {
@@ -72,15 +91,60 @@ class MAZEGENERATOR_API AMaze : public AActor
 public:
 	AMaze();
 
+
+	static void Label4x4WallBlocks(TArray<TArray<TCHAR>>& LetterGrid, FRandomStream& Stream);
+	static void Label2x2WallBlocks(TArray<TArray<TCHAR>>& LetterGrid, FRandomStream& Stream, int32 Seed);
+	// C++
+	// C++
+	UFUNCTION(BlueprintCallable, Category = "Maze")
+	AActor* SpawnAndNameActor(
+		TSubclassOf<AActor> ActorClass,
+		const FTransform& SpawnTransform,
+		int32 X,
+		int32 Y,
+		const FString& NameFormat = TEXT("RoadTile_%d_%d")
+	);
+
+	// C++
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Maze")
+	FRandomStream RandomStream;
+
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Maze")
+	void OnMazeActorsSpawned();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Maze",
 		meta=(NoResetToDefault, ExposeOnSpawn, DisplayPriority=0))
 	EGenerationAlgorithm GenerationAlgorithm;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Maze", meta=(ExposeOnSpawn, DisplayPriority=1))
-	int32 Seed;
+	int32 Seed = 1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Maze", meta=(ExposeOnSpawn, DisplayPriority=2))
 	FMazeSize MazeSize;
+	UPROPERTY(BlueprintReadOnly)
+	TArray<FString> RoadLetterGrid;
+	// C++
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> RoadSystemBlueprintClass;
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> Parcel1BlueprintClass;
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> Parcel2BlueprintClass;
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> Parcel3BlueprintClass;
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> Parcel4BlueprintClass;
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> Parcel5BlueprintClass;
+	UPROPERTY(EditAnywhere, Category = "Maze|Blueprints")
+	TSubclassOf<AActor> Parcel6BlueprintClass;
+
+	// C++
+	UPROPERTY()
+	TArray<UChildActorComponent*> SpawnedRoadComponents;
+
+	UPROPERTY(BlueprintReadOnly)
+	TArray<AActor*> SpawnedRoadActors;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName="Floor", Category="Maze|Cells",
 		meta=(NoResetToDefault, ExposeOnSpawn, DisplayPriority=0))
@@ -117,6 +181,10 @@ public:
 	bool bUseCollision = true;
 
 protected:
+
+	/** Returns a random non-numeric neighbor letter from the four cardinal directions, or "" if none found */
+	FString GetRandomNeighborRoadLetter(const TArray<TArray<TCHAR>>& RoadLetterGrid, int32 X, int32 Y) const;
+
 	TArray<TArray<uint8>> MazeGrid;
 
 	TArray<TArray<uint8>> MazePathGrid;
@@ -142,6 +210,8 @@ public:
 	// Update Maze according to pre-set parameters: Size, Generation Algorithm, Seed and Path-related params.
 	UFUNCTION(BlueprintCallable, Category="Maze")
 	virtual void UpdateMaze();
+	// C++
+
 
 	/** 
 	 * Updates Maze every time any parameter has been changed(except transform).
