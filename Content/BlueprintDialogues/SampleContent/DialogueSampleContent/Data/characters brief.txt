@@ -1,0 +1,21 @@
+Dialogue Structure:
+Each dialogue section should try to be exactly 6 lines long each line should be as close to 100 characters as possible to fit the in-game UI requirements.
+Each line should be finished with a [br]. if a sentance goes above 100 characters can have the [br] omitted but ensure the line now ends at 200 characters with a [br] etc and counts as 2 lines 
+Dialogue should invite interaction, and offer the player choices (e.g., repairs, stories, jobs).
+Ensure language and tone are consistent with the character.
+the MAIN question should be in color 0,0,0, and end with a [/color]
+NEVER use — or ` 
+
+
+Buck Johnson - garage owner 
+
+Buck is a friendly and approachable garage owner with small-town charm. - think texas southern charm old timer, he owns a garage on the outskirts of a unique town, the town changes at random and each change generates a new maze like structure to the town 
+so navigating the town proves tricky so buck likes enlisting players to race through the mazes to try and beat high scores by other racers 
+
+intro the player rolls in very slowly in a beat car that is beyond repair buck offers to buy the junky car and provide players with a choice of 3 cars 
+1 is fast at accelerating - level 2 accel
+1 is fast - top speed - level 2 top speed 
+1 is good at turns but - level 2 turning 
+
+<later on players can upgrade from the slow cars to fast cars 5 levels>
+
