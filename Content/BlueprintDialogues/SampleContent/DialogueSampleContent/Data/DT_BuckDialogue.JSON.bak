@@ -2,7 +2,12 @@
   {
     "Name": "Buck_Intro",
     "SpeakerId": "Buck",
-    "Text": "Well, howdy there, friend! Name’s Buck Johnson, but most folks just call me Buck. Welcome to my little slice of heaven—Johnson’s Garage. Out here, the stories are long and the coffee’s strong enough to put hair on a fence post.[br]Saw your old jalopy limpin’ in. She’s got some character, I’ll give her that.[br]Now, I caught you lookin’ at that faded poster by the door—got your mind on repairs, or you curious about a little excitement?",
+    "Text": "Well howdy, friend! Buck Johnson here—folks just call me Buck, king of this garage.[br]\
+Coffee's on, stories are free, and if you can fix an engine with duct tape, you're family here.[br]\
+Now, don't mind the mess—every stain tells a story and every tool's got a best friend.[br]\
+You look like you've got a tale or two yourself. City folks don't usually wander this far out.[br]\
+What's your story, partner? Need a fix, after some fast wheels, or just hunting for odd jobs?[br]\
+[color=0,0,0]So, what brings you to Buck's garage today? Repairs, a race, or maybe some honest work?[/color][br][/color]",
     "ResponseText": "",
     "Branches": "Player_AskFix;Player_AskRace;Player_AskWork",
     "Traits": "Hub",
@@ -50,7 +55,12 @@
   {
     "Name": "Buck_FixReply",
     "SpeakerId": "Buck",
-    "Text": "Wish I had better news, partner. That old ride of yours is a stubborn mule, and parts for her are rarer than rain in July.[br]Most folks would haul her off to the scrapyard, but I reckon you deserve a better shot.[br]Tell you what—if you race for me out in the Maze, I’ll buy your old heap fair and square. You can put that money toward somethin’ a bit newer—might not be fancy, but she’ll get you where you’re goin’. It ain’t a free ride, but it’s the best offer you’ll get ‘round here.[br]What do you say? Ready for a little adventure?",
+    "Text": "Well now, that car of yours is a legend in stubbornness—she’d win a prize for being tricky![br]\
+Parts for her are rarer than a cool breeze in July, but I never say never in this shop.[br]\
+Other mechanics would toss up their hands, but I see potential in every dent and scratch.[br]\
+It’ll take some work, a little luck, and maybe a favor or two from Lady Fortune herself.[br]\
+I might have a way to help you out, if you’re gutsy enough to take a ride on the wild side.[br]\
+[color=0,0,0]What do you say, partner—ready to strike a deal and get those tires turning again?[/color][br][/color]",
     "ResponseText": "",
     "Branches": "Player_RaceDeal;Player_DeclineLoop;Player_AskMazeRace",
     "Traits": "Hub",
@@ -98,7 +108,12 @@
   {
     "Name": "Buck_DeclineLoop",
     "SpeakerId": "Buck",
-    "Text": "If there was, I’d tell ya, honest. But this is your one good shot, sugar. The Maze is tough, but it’s fair, and it’s the only way to trade up ‘round these parts.[br]Come on—let’s get you set up for a little fun in the test area. You might surprise yourself.",
+    "Text": "If there was another way, I'd be shouting it from the rooftops—I'm all about options here![br]\
+You’ve got a one-in-a-million shot with that car, and the Maze is your ticket out of trouble.[br]\
+No one else in town will take a chance on a ride like yours, but I believe in second chances.[br]\
+The Maze is tough, but fair; she respects grit and a dash of wild spirit more than plain luck.[br]\
+It’s your call, sugar—grab the wheel or keep wandering, but don’t say Buck never tried![br]\
+[color=0,0,0]Are you ready to roll the dice and give the Maze a spin, or do you want to talk it out more?[/color][br][/color]",
     "ResponseText": "",
     "Branches": "Buck_GoToTestArea",
     "Traits": "",
@@ -110,7 +125,12 @@
   {
     "Name": "Buck_ExplainRace",
     "SpeakerId": "Buck",
-    "Text": "Ah, the Maze Race! Now there’s a story for the ages. Folks from all over bring their best wheels, hopin’ for a shot at glory. The Maze ain’t just a pile of dirt and turns—it’s a wild old place with more twists than a rattlesnake.[br]If you got the grit, you could win big. But first, you gotta pick yourself a ride. I got a few out back, and a test area where you can get the feel for ‘em.[br]Ready to see what you’re made of?",
+    "Text": "The Maze Race? Now that's a slice of small-town legend, hotter than a jalapeño pancake![br]\
+Racers from all around test their mettle—if you’ve got nerves and a good set of brakes, you’ll fit in.[br]\
+It’s not just mud and turns; there’s more twists than a rattler at a barn dance, I promise you.[br]\
+Glory, bragging rights, and maybe some prize money await those brave enough to take the wheel.[br]\
+I keep the rules fair, the coffee hot, and the stories even hotter—just ask the locals![br]\
+[color=0,0,0]Think you’ve got what it takes to race the Maze, or just here to watch the spectacle?[/color][br][/color]",
     "ResponseText": "",
     "Branches": "Buck_GoToTestArea",
     "Traits": "",
@@ -122,7 +142,12 @@
   {
     "Name": "Buck_OfferWork",
     "SpeakerId": "Buck",
-    "Text": "Work, you say? Well, I always need a hand, ‘specially someone with a little fire left in ‘em. Tell ya what, how about you help me out by takin’ a spin in the Maze Race? Winner gets a tidy sum, and you’ll earn your keep the honest way.[br]Got a few cars out back, and a test area where you can shake ‘em down before you make up your mind. What do you think?",
+    "Text": "Looking for work, huh? You’re in luck—I always need a hand, especially with a race on the horizon![br]\
+If you’re handy with a wrench or fast on a track, I’ve got jobs that’ll keep you busy and your wallet happy.[br]\
+Win the Maze, and you’ll earn your keep and a story worth telling around the diner for months.[br]\
+No two days are the same here—one minute it’s oil changes, next it’s outsmarting squirrels in the rafters.[br]\
+Roll up your sleeves and show me what you’ve got; Buck’s Garage runs on elbow grease and big dreams.[br]\
+[color=0,0,0]Ready to get your hands dirty and race for the job, or want to chat more before you decide?[/color][br][/color]",
     "ResponseText": "",
     "Branches": "Buck_GoToTestArea",
     "Traits": "",
@@ -134,7 +159,12 @@
   {
     "Name": "Buck_GoToTestArea",
     "SpeakerId": "Buck",
-    "Text": "Alrighty, let’s get you movin’. Out behind this garage, I got a little test area—nothin’ fancy, but good enough to stretch your legs. There’s three cars out there: one’s built for speed, one jumps off the line like a jackrabbit, and the last one’ll stick to the corners like syrup to a hotcake.[br]You go on and try each one as much as you please. When you made up your mind, just drive the one you want back here into the garage and I’ll fix you up proper.[br]Take your time—ain’t no rush. I’ll be waitin’ right here. You just holler if you need anything, alright?",
+    "Text": "Alright now, let’s get you moving! Out back, I’ve got a test area—nothing fancy, but full of heart.[br]\
+There’s three cars waiting: one’s got more rust than paint, one’s fast, and the last’s pure mystery.[br]\
+Pick your steed, give her a spin, and let’s see if your driving’s as good as your storytelling.[br]\
+If you ace my test, doors will open—jobs, races, maybe even a fix for that stubborn old ride.[br]\
+Remember, here at Buck’s, effort counts double and laughter’s part of the tune-up.[br]\
+[color=0,0,0]Which car’s calling your name—rusty legend, speedster, or the wild card? Let’s see what you’re made of![/color][br][/color]",
     "ResponseText": "",
     "Branches": "",
     "Traits": "End",
