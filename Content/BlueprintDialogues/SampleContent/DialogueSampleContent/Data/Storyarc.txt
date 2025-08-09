@@ -1,0 +1,323 @@
+Mixed Story Arc: "From Scrap to Legend" 
+
+Start as a struggling driver in a faded industrial town, barely limping into the local garage. There, you discover the existence of an underground league that runs secret races through the ever-shifting maze of city streets. Rumours swirl about the legendary "Golden Engine," a mythical part said to grant ultimate speed—attainable only by rising through the league’s ranks and proving yourself in challenges across the city.
+
+
+Story Progression (100 Levels):
+
+### Levels 1–20: The Rust Belt Awakening  
+- Stranded and desperate, you earn your entry into the underground racing league by fixing your car and completing local challenges.
+- The city’s districts retain their familiar look, but each race features a fresh maze layout and new randomly placed buildings, keeping the environment engaging and unpredictable.
+- Rival drivers introduce league rules and offer your first clue to the Golden Engine.
+
+### Levels 21–40: League of Shadows  
+- As a league rookie, you face increasingly complex races with unique objectives (drift-only sectors, time trials, mini-missions).
+- The core city remains visually recognizable, but every level reshuffles roads and buildings based on its seed.
+- Defeat boss racers to earn Golden Engine blueprints and climb the ranks.
+
+### Levels 41–60: Scavenger Hunt  
+- The league sets a multi-stage scavenger hunt: find rare items, complete side missions, and best rival crews.
+- Maze layouts and city assets shift, but the backdrop is always the same city—giving a sense of continuity as you revisit familiar locations with new challenges.
+- Each arc culminates in acquiring a Golden Engine part from a regional boss.
+
+### Levels 61–80: The Final Pieces  
+- With most Golden Engine components gathered, the league’s top racers throw down their toughest challenges.
+- Expect multi-objective missions, environmental puzzles, and intense rival battles—all set against the city’s ever-changing street maze.
+- Customize your car further as you assemble the Golden Engine.
+
+### Levels 81–99: The League’s Ultimate Test  
+- The league leadership emerges, offering a gauntlet of their hardest mazes and most cunning adversaries.
+- The city map stays constant, but the maze’s complexity peaks and building placement becomes more surprising.
+- The penultimate challenge: a grand tournament against all your past rivals—one final push for glory.
+
+### Level 100: The Legend Race  
+- The Golden Engine assembled, you face the ultimate maze challenge: a sprawling, multi-objective race that ties together all you’ve learned.
+- The city’s familiar streets frame a labyrinth of shifting routes and strategic shortcuts.
+- Triumph to restore your reputation, claim the Golden Engine, and decide the future of the underground league.
+
+
+**Key Elements:**
+- **Static City Map:** The city’s layout stays the same visually, offering a sense of home and progress.
+- **Dynamic Maze & Buildings:** Each level changes the road network and building placements (based on seed), making every race feel fresh.
+- **Narrative Progression:** Underground league, rivalries, scavenger hunt, assembling the Golden Engine, and your rise to legend.
+- **Mini Missions & Boss Battles:** Delivery tasks, drift challenges, rival races—all enriching the main storyline.
+
+
+### Levels 1–20: The Rust Belt Awakening 
+(Coin and Car Progression)
+
+**Narrative Progression:**
+
+ **Tutorial:**  
+   - You limp into town with a beat-up car, but the garage owner tips you off about the underground maze races—where skill earns coins, upgrades, and new rides.
+
+ **Level 1:**  
+   - Reach the garage and get a car running just enough for your first race.  
+   - Learn basic driving, drifting, and coin collection.
+
+ **Levels 2–5:**  
+   - Compete in simple delivery and race missions to earn coins.  
+   - Spend coins on small repairs, visual upgrades, and your first minor performance boost.
+
+ **Levels 6–10:**  
+   - Rival racers notice your progress.  
+   - New maze layouts and rivals challenge you to earn more coins.  
+   - Save up to buy a second vehicle or unlock a new visual style.
+
+ **Levels 11–15:**  
+   - The underground league scouts your talent—win races and mini-missions for bigger coin rewards.  
+   - Unlock advanced upgrades (handling, nitro, etc.) and start building a diverse garage.
+
+ **Levels 16–19:**  
+   - Rival crews sabotage races, forcing creative driving and strategy.  
+   - Help citizens, complete timed missions, and collect hidden pickups for bonus coins.
+
+ **Level 20:**  
+   - First boss race: face the local league recruiter.  
+   - Winning earns a major coin payout, unlocks a new car class, and gives your first clue to the Golden Engine.
+
+**Gameplay Elements Introduced:**
+- Coins as main progression currency
+- Multiple vehicles to unlock and upgrade
+- Garage management: swap cars, upgrade, customize, and strategize
+- Story progression tied to earning, spending, and collecting rides—not just one car
+
+### Levels 21–40: League of Shadows
+(Multiplayer & Guild Progression)
+
+**Narrative Progression:**
+
+**Levels 21–25:**  
+   - You’ve earned your spot in the underground league!  
+   - New race types appear: drift-only sectors, time attack routes, and coin-collection challenges.
+   - Compete against increasingly skilled rivals for bigger coin rewards and unlock your third vehicle slot.
+
+**Levels 26–30:**  
+   - The league introduces “crew battles,” where you race as part of a team, earning bonus coins for cooperative achievements (e.g., group deliveries, relay races).
+   - Rival crews target you with sabotage: blocked shortcuts, moving obstacles, or “phantom” racers who try to steal coins.
+
+**Levels 31–35:**  
+   - Special missions pop up—complete consecutive drift combos, collect rare pickups, or transport VIP passengers for extra coins.
+   - Unlock advanced upgrades (engine, suspension, nitro systems) and higher-tier visuals (neon underglows, custom audio packs).
+
+**Levels 36–39:**  
+   - League bosses challenge you: defeat their best drivers in head-to-head maze races, each with a unique twist (low visibility, reversed controls, timed checkpoints).
+   - Each boss drops a Golden Engine blueprint piece and an exclusive cosmetic.
+
+**Level 40:**  
+   - Major league event: a multi-stage race against all crew leaders.  
+   - Win to unlock a new car class and earn a substantial coin payout.
+   - Your reputation grows—rumours spread of your progress toward the legendary Golden Engine.
+
+**Gameplay Elements Introduced:**
+- Team-based races and objectives
+- Sabotage mechanics (blocked routes, phantom rivals)
+- Advanced upgrades and customization
+- Boss battles with unique race constraints
+- Multi-stage events and milestone rewards
+
+
+
+
+
+
+
+
+
+
+
+
+### Levels 41–60: Scavenger Hunt & Rising Stakes
+(It’s Not Gambling…. Honest)
+
+**Narrative Progression:**
+
+**Levels 41–45:**  
+   - The underground league sets new challenges: collect rare items and complete advanced mini-missions (e.g., chain drifts, multi-stage deliveries, secret pickups).
+   - Rival crews now use new tactics, such as blocking critical maze routes or setting up decoy buildings to confuse you.
+   - Each successful mission yields significant coins, helping you unlock high-performance vehicles and premium upgrades.
+
+**Levels 46–50:**  
+   - Special events appear: time-limited “scavenger hunt” races where you must find hidden collectibles scattered across the maze.
+   - The league introduces new mission types, such as “escort” runs (protecting AI vehicles) or “relay races” (swap vehicles mid-run for bonus coins).
+   - Completing event objectives nets unique car cosmetics, audio packs, and rare upgrade parts.
+
+**Levels 51–55:**  
+   - Rival bosses return, now with upgraded cars and new racing styles.
+   - Face multi-objective maze races, where success means outsmarting both the maze and your rivals’ sabotage.
+   - Winning these boss races earns you additional Golden Engine blueprint pieces and unlocks exclusive car classes.
+
+**Levels 56–59:**  
+   - The league begins “double or nothing” coin challenges—high-risk, high-reward races with tough obstacles and rival interference.
+   - Your garage grows, allowing you to swap cars and optimize for specific races or mini-missions.
+   - New story choices emerge: pick which rival crew to support or sabotage, affecting future mission rewards and league reputation.
+
+**Level 60:**  
+   - Major milestone: a cross-league tournament where you face previous bosses and new rivals in a multi-stage race.
+   - Victory unlocks a legendary car and the next major part of the Golden Engine, cementing your place in league lore.
+
+**Gameplay Elements Introduced:**
+- Advanced scavenger hunts and event missions
+- Car swapping and garage strategy
+- Rival sabotage and decoy tactics
+- Story choices affecting rewards and relationships
+- Legendary car unlocks and major Golden Engine progression
+
+
+
+
+
+
+### Levels 61–80: The Final Pieces & League’s Ultimate Test
+
+**Narrative Progression:**
+
+**Levels 61–65:**  
+   - You’ve gathered most Golden Engine blueprint pieces. The league’s elite racers now set the stage for their hardest challenges: multi-objective mazes, precision drifting sections, and races with randomized hazards.
+   - Each victory earns you rare coins, premium upgrades, and exclusive event-only vehicles.
+
+**Levels 66–70:**  
+   - The league introduces “master missions” requiring you to combine all mastered skills—drifting, coin collection, sabotage avoidance, and vehicle swapping.
+   - Rival crews try to block your progress and steal your coins, forcing clever navigation and strategic car choices.
+
+**Levels 71–75:**  
+   - The final Golden Engine pieces are hidden in high-stakes boss races.  
+   - Bosses now use maxed-out vehicles and advanced tactics (trap roads, fake pickups, time penalties).
+   - Winning these unlocks full engine assembly, plus legendary cosmetic items.
+
+**Levels 76–79:**  
+   - The league’s leadership invites you to the “Ultimate Gauntlet”—a sequence of the toughest mazes, with randomized obstacles, time limits, and rival interference.
+   - Your garage is now fully equipped; optimize your car lineup for each challenge.
+   - Coins earned go towards ultra-premium upgrades and event-only skins.
+
+**Level 80:**  
+   - The penultimate milestone: a championship tournament against all previous bosses and rival crews, culminating in a grand maze race with shifting routes and dynamic hazards.
+   - Victory cements your reputation as a top contender for the legendary Legend Race, earning the final Golden Engine upgrade and unlocking “champion” status in the league.
+
+**Gameplay Elements Introduced:**
+- Multi-objective missions and master challenge events
+- High-stakes boss races and strategic car swaps
+- Randomized hazards and complex sabotage mechanics
+- Legendary and event-exclusive upgrades and vehicles
+- Ultimate gauntlet and championship tournament structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Levels 81–99: The League’s Ultimate Challenge
+
+**Narrative Progression:**
+
+**Levels 81–85:**  
+   - The league’s upper echelon reveals themselves, challenging you with their most complex maze layouts and cunning sabotage tactics.
+   - Races feature maximum difficulty: multi-stage objectives, intense rival interference, and unique hazards (moving barriers, restricted zones).
+   - Coins earned here can be spent on the rarest car upgrades and exclusive champion-only visuals.
+
+**Levels 86–90:**  
+   - Face “legendary” rivals—previous bosses and league champions—each race requiring mastery of all skills: drifting, navigation, sabotage avoidance, and strategic car selection.
+   - Complete special objectives (perfect runs, highest coin collection, no collisions) for bonus rewards and rare achievements.
+
+**Levels 91–95:**  
+   - The league launches the “Ascension Gauntlet”—a set of races with random events, surprise obstacles, and secret pickups.
+   - Your choices in previous rivalries and alliances influence support, sabotage, and bonus opportunities in these races.
+
+**Levels 96–99:**  
+   - The final league bosses challenge you in a series of escalating races, each level unlocking a new part of the ultimate Golden Engine.
+   - Outwit the toughest sabotage yet and overcome the most dynamic mazes the city has ever seen.
+   - Completing these earns you the final assembly of the Golden Engine and access to the Legend Race.
+
+### Level 100: The Legend Race
+
+- The city becomes the stage for a single, massive race—the Legend Race—where all your skills, upgrades, and vehicles are put to the test.
+- The maze layout reaches its most complex form, with every shortcut, hazard, and hidden pickup possible.
+- Rivals from across your journey compete alongside you, each with their own strengths and sabotage tactics.
+- Your fully assembled Golden Engine offers unmatched performance, but victory depends on mastery—not just speed.
+- Triumph brings you the league championship, the admiration of the city, and the power to shape the league’s future—will you lead, reveal, or retire as a legend?
+
+**Gameplay Elements:**
+- Maximum maze complexity and dynamic city layout
+- All vehicles and upgrades available for strategy
+- Ultimate rivals and boss interference
+- Themed achievement for winning the Legend Race
+
+This closes the “From Scrap to Legend” arc, tying your evolving garage, league progression, and personal legend into a single, epic journey!
+
+
+Full Level Progression Table
+
+Part collection arc (levels 10–80, assembling the jet engine up to the Nozzle & Exhaust Cone),
+Boss betrayal at level 80 (after you complete the Nozzle & Exhaust Cone),
+Stolen arc (levels 81–89: recovering stolen major modules),
+Discovery of the afterburner sub-part location file at level 89,
+Clue-driven missions (levels 91–98): recover each afterburner sub-part,
+Final assembly and jet reveal at level 99.
+
+# Golden Jet Engine Blueprint Progression
+
+| Level | Event / Module / Part                        | Mission / Story Beat                                               |
+|-------|----------------------------------------------|--------------------------------------------------------------------|
+| 10    | Intake Assembly                              | Start collecting base engine parts                                 |
+| 11    | Fan blades                                   |                                                                    |
+| 12    | Fan disc                                     |                                                                    |
+| 13    | Fan hub                                      |                                                                    |
+| 14    | **Fan Module (assembled)**                   | Combine fan sub-parts                                              |
+| 16    | Compressor: Low-pressure section             |                                                                    |
+| 17    | Compressor: High-pressure section            |                                                                    |
+| 18    | Compressor blades                            |                                                                    |
+| 19    | Compressor shaft                             |                                                                    |
+| 20    | **Compressor Stage (assembled)**             | Combine compressor sub-parts                                       |
+| 26    | Combustion chamber: Fuel injectors           |                                                                    |
+| 27    | Combustion chamber: Ignition system          |                                                                    |
+| 28    | Combustion chamber: Chamber liner            |                                                                    |
+| 29    | Combustion chamber: Flame tube               |                                                                    |
+| 30    | **Combustion Chamber (assembled)**           | Combine combustion sub-parts                                       |
+| 31    | Turbine: High-pressure section               |                                                                    |
+| 32    | Turbine: Low-pressure section                |                                                                    |
+| 33    | Turbine blades                               |                                                                    |
+| 34    | Turbine discs                                |                                                                    |
+| 35    | **Turbine Assembly (assembled)**             | Combine turbine sub-parts                                          |
+| 40    | Accessory Gearbox                            |                                                                    |
+| 45    | Electronic Control Unit                      |                                                                    |
+| 50    | Mounting Frame / Engine Case                 |                                                                    |
+| 60    | Fuel Tank                                    |                                                                    |
+| 70    | Cowling (Engine Cover)                       |                                                                    |
+| 76    | Nozzle throat                                |                                                                    |
+| 77    | Exhaust cone                                 |                                                                    |
+| 78    | Adjustable nozzle                            |                                                                    |
+| 79    | Assemble Nozzle & Exhaust Cone               | Combine nozzle sub-parts                                           |
+| 80    | **Nozzle & Exhaust Cone (complete)**         | Boss fight; betrayal—key engine modules stolen                     |
+
+## Stolen Arc
+
+| Level | Event / Stolen Module                        | Mission / Story Beat                                               |
+|-------|----------------------------------------------|--------------------------------------------------------------------|
+| 81    | Fan Module (stolen)                          | Rival chase                                                        |
+| 83    | Compressor Stage (stolen)                    | Stealth recovery                                                   |
+| 85    | Combustion Chamber (stolen)                  | Puzzle challenge                                                   |
+| 87    | Turbine Assembly (stolen)                    | Syndicate boss race                                                |
+| 89    | Nozzle & Exhaust Cone (stolen)               | Warehouse raid; find secret file with afterburner part locations   |
+
+## Afterburner Clue Missions
+
+| Level | Event / Afterburner Sub-Part                 | Mission / Story Beat                                               |
+|-------|----------------------------------------------|--------------------------------------------------------------------|
+| 91    | Afterburner ignition module                  | Clue-based hunt from stolen file                                   |
+| 93    | Afterburner liner                            | Puzzle/stealth mission                                             |
+| 95    | Afterburner injection nozzle                 | Rival race                                                         |
+| 97    | Afterburner cooling manifold                 | Multi-stage gauntlet                                               |
+| 98    | Afterburner assembly (combine sub-parts)     | Final recovery and assembly                                        |
+
+## Finale
+
+| Level | Event / Module / Part                        | Mission / Story Beat                                               |
+|-------|----------------------------------------------|--------------------------------------------------------------------|
+| 99    | **Afterburner Unit (complete, jet reveal)**  | Jet engine fully assembled—true power unlocked!                    |

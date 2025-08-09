@@ -1,0 +1,175 @@
+AMazeing Racer: Deep-Dive Design
+
+Dive into the heart-pounding action of AMazeing Racer, where every run is a fresh challenge in a sprawling urban maze. Choose from a diverse lineup of customizable cars, each with unique handling and style, and fine-tune your ride in the Garage before hitting the streets. Navigate winding alleys, bustling boulevards, and hidden shortcuts while mastering drift mechanics to rack up high scores. Strategically use nitro boosts to outpace the clock or complete mini missions, such as passenger pickups, drifting challenges, and item collections. Whether you're chasing the fastest route or exploring the maze for hidden rewards, every turn is an opportunity to dominate the leaderboard—and leave your rivals in the dust.
+
+1. Core Loop
+
+1. **Garage**: Begin each run in the **Garage**, located on the same map as the city maze. The Garage acts as a preparation hub where players can:  
+   - Upgrade and customize their cars, including performance tweaks and cosmetic changes.  
+   - Purchase new vehicles or unlock paint jobs, decals, and underglow effects.  
+   - Access a **Test Track** (not timed, with no pickups or money rewards) to fine-tune and test adjustments to vehicles.  
+
+2. **Start Gate**: Drive out of the Garage, navigate to the **Starting Gate**, and drive through it to activate the timer and begin the run.  
+
+3. **Navigate & Drift**: Tear through corners to maintain speed and find the exit. Master drifting mechanics to optimize your path and score.  
+
+4. **Time Trial**: Beat the countdown timer (e.g. 90 seconds) to unlock the next district.  
+
+5. **Post-Run Reward**: Earn money based on your finish time, drift score, and how many times you've run that track before.  
+   - High drift scores and faster times increase your earnings, while repeated runs on the same track reduce efficiency and reward.  
+
+6. **Repeat**: Campaign mode consists of 100 pre-designed levels. Each run in campaign mode will have the same maze layout, with pickups and missions tracked so they do not reappear in subsequent runs. In addition, players can play **Random Levels**, generated procedurally with a very low chance of repeating already completed layouts. This allows players to improve their money and collect additional pickups or mission rewards.
+
+
+2. Controls & Drift Mechanics
+
+- **Steering**  
+  • Analog/stick or arrow keys for smooth turn input.  
+- **Throttle & Brake**  
+  • W/S (RT/LT) for accelerate and slow down.  
+  • SPACEBAR will initiate the handbrake, allowing for rapid braking and drifting.  
+- **Boost Pickup**  
+  • Tap boost key to consume a stored nitro charge for a short turbo surge.  
+  • **Note**: Boosts are only available if the player has purchased a **Nitro Boost Car Upgrade** using in-game coins.
+
+Drifting around corners contributes to your **Drift Score**. High drift scores add to your cash reward at the end of the run, but provide no in-run speed bonuses. 
+
+3. Maze Design and Features
+
+- **Grid Size**: Fixed at **20×20 city blocks per run**.  
+- **Road Types**: Includes main avenues, alleys, and dead-ends.  
+- **Randomized Events**: Players may encounter:  
+  - **Item Pickups**: Temporary speed boosts, drift score multipliers, or nitro refills (**Not yet implemented**).  
+  - **Mini Missions**: Optional challenges like drifting through marked zones, collecting a series of items for bonus money, or picking up passengers and following a sat-nav to their destination (**Not yet implemented**).  
+  - **City Building Placement**: Procedural placement for city assets such as buildings and landmarks is still in progress.  
+  - **Hidden Yellow Bricks**: Each of the 100 main campaign levels contains a hidden **Yellow Brick**. Upon finding the brick, the next time you run that map, you can activate the **Yellow Brick Road**, which highlights the shortest path from start to finish by changing the curb color from white to yellow along those roads.
+
+The maps are carefully designed to balance challenge and exploration, ensuring that each run feels rewarding and engaging.
+
+4. Garage & Upgrades
+
+Before starting a map, players spawn in a **Garage**, which is located within the city maze. Here, they can:  
+- **Upgrade Cars**: Spend in-game currency to improve performance, such as acceleration, handling, or purchasing the **Nitro Boost Car Upgrade**.  
+- **Customize Cars**: Paint cars, apply decals, or add neon underglow for a personalized look.  
+- **Purchase New Cars**: Unlock different car classes (muscle, supercar, drift-spec) with unique stats and handling.  
+- **Test Track**: Access a dedicated **Test Track** to freely test and adjust vehicles. This track is untimed, with no pickups or money rewards, allowing players to perfect their handling and drift techniques.  
+
+The Garage acts as a preparation hub, allowing players to optimize their cars and appearance for the challenges ahead, before seamlessly transitioning into the city maze.
+
+ 5. Level Progression & Targets
+
+- **Campaign Mode**  
+  - 100 pre-designed levels with increasing difficulty and unique layouts.  
+  - Pickups and missions are tracked per level to ensure variety in rewards.  
+
+- **Random Level Mode**  
+  - Play procedurally generated levels to improve money, collect new pickups, and complete mini missions.  
+  - Very low chance of repeating an already completed level.  
+
+- **Money Per Run**  
+  - Earn money based on your finish time, drift score, and how many times you've previously run the track.  
+  - New runs on fresh tracks yield higher rewards, while repeated runs reduce efficiency and payouts.  
+
+- **Unlockables**  
+  - New car silhouettes (muscle, supercar, drift-spec)  
+  - Paint kits and neon underglow colors  
+  - Audio packs (synthwave, drum ‘n’ bass)
+
+ 6. Meta & Daily Modes
+
+- **Daily Maze Challenge**  
+  • Single pre-seeded layout with global leaderboard; top runs earn exclusive skins.  
+- **Weekly Drift Gauntlet**  
+  • 7-level gauntlet combining the previous week’s 7 daily tracks into one massive map.  
+  • Players can memorize the tracks during the week and compete for cumulative time rankings.
+
+7. Monetization
+
+- **Season Pass**  
+  • Free and premium tiers grant incremental rewards, including decals, nitro upgrades, and exclusive cosmetic items.  
+
+- **Cosmetics**  
+  • Players can purchase car skins, neon underglows, audio packs, and player clothing for a personalized experience.  
+
+- **Daily Deals**  
+  • Limited-time offers for exclusive items or event-specific rewards.  
+
+8. Art & Audio Direction
+
+- **Visual Style**  
+  - Stylized low-poly cars and city blocks with high-contrast neon accents.  
+  - Minimal HUD: timer, drift meter, and **mini-map overlay**, which uses **fog of war** to reveal the maze dynamically as players explore. The mini-map shows the exit, checkpoints, and event markers as they are uncovered.  
+- **Sound**  
+  - Adaptive synthwave soundtrack that intensifies as your drift score rises.  
+  - Punchy engine revs and tire-screech SFX tied to drift angle and speed.
+
+9. Technical Considerations
+
+- **Engine Choice**: Unreal Engine (Blueprint/C++) will be used to support modular grid systems and post-processing neon shaders.  
+- **Maze Data**: Store seed + obstacle layout; regenerate geometry on load for minimal disk usage.  
+- **Performance**:  
+  - Use object pooling for AI cars and barriers.  
+  - Bake static lighting for city blocks; enable dynamic lights for boost and drift trails.
+
+10. Stretch Goals
+
+- **Dynamic Day/Night Cycle**  
+  • Implement a dusk-to-dawn shader ramp with glow maps to create an immersive visual experience.  
+
+- **Replay "Ghost" Overlay**  
+  • Add a replay "ghost" feature that lets players compare their current run with their best performance.  
+
+- **Speed Trail Bonus**  
+  • A feature that provides a temporary speed boost and visual neon streaks for achieving high drift scores.  
+  • This mechanic may be introduced as a milestone feature in future expansions or updates.  
+
+- **Drift Lock Mechanics**  
+  • A feature that allows players to hold a button to lock into a drift state and gain a speed burst upon release.  
+
+- **INSANE MODE**  
+  • A mode where the maze size increases up to 200×200 blocks with random start and end points.  
+  • Designed for advanced players who want a challenging experience.  
+
+- **Shortcuts & Gates**  
+  • Introduce locked gates that require drifting across pressure plates to open new branches.  
+
+- **Traffic Hazards**  
+  • Add randomly spawned AI cars, movable barriers, and timed roadworks to increase difficulty.  
+
+- **Checkpoints**  
+  • Introduce checkpoints that reset the timer by +5 seconds when passed in the correct sequence.  
+
+- **One-Way Systems**  
+  • Introduce one-way streets to add complexity and force players to plan their routes more carefully.  
+
+- **Multi-Level Maps**  
+  • Add tunnels and bridges to create multi-tiered mazes, offering vertical navigation challenges.  
+
+- **Boss-Style Chase Events**  
+  • Add special levels where players are pursued by AI "boss" vehicles requiring skillful driving to evade.  
+
+- **Advanced Leaderboards**  
+  • Global and local leaderboard filtering by country, friends, or car type.  
+
+- **Co-op Mode**  
+  • A co-op mode where players team up to navigate the maze and complete challenges together.  
+
+- **Custom Maze Editor**  
+  • Allow players to design and share their own mazes with the community.  
+
+11. Next Steps
+
+1. **Complete City Building Placement**: Finalize procedural generation for city assets such as buildings and landmarks.  
+2. **Implement Randomized Events**: Add item pickups, mini missions, and passenger pickups to enhance gameplay variety.  
+3. **Campaign Mode Demo**: Build a playable sequence of 3–5 fixed campaign levels with tracked pickups and missions.  
+4. **Playtest & Tweak**: Adjust timer, drift combo calibration, AI traffic density, and event frequency.
+5. check level 10 for 4x4 crossovers and fix
+
+
+
+
+
+12. Attribs 
+SHULDIAKOV – Rusty 70’s Chevy
+freesound_community – Various Sound Effects
+
